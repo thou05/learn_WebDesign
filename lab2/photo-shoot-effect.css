@@ -1,0 +1,135 @@
+body{
+  width: 960px;
+  color: #fcfcfc;
+  background-color: #355664;
+  margin: 0 auto;
+}
+
+h1, h2, h3{
+  font-family: forte, arial, sans-serif;
+}
+/* logo -------------- */
+h1{
+  /* font-family: "Permanent Marker"; */
+  font-size: 50px;
+  padding: 10px 0 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* solgan --------------- */
+h3{
+  text-align: right;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0 0 10px;
+  /* font-family : "Oleo Script"; */
+} 
+
+/* bar navigation ------------ */
+nav{
+    padding: 0 5px 0;
+    margin-left: -25px;
+}
+
+li{
+  /* float: left; */
+  display:inline-block;
+  list-style-type: none;
+}
+
+a{
+  margin: 5px 2px;
+  padding: 7px 10px 4px;
+  font-size: 30px;
+}
+
+nav ul li:nth-child(1) a{
+  color: #7cb3e9;
+  text-transform: lowercase ;
+  
+}
+
+nav ul li:nth-child(2) a{
+  color: #8ec45b; 
+  text-transform: none;
+}
+
+nav ul li:nth-child(3) a{
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* content box ------------ */
+article{
+  height: 380px;
+  /* width: 800px; */
+  background-color: #213e4a;
+  padding: 20px;
+  margin: 0 0 0 10px;
+  border-radius: 10px;
+}
+
+h2{
+  font-size: 40px;
+  letter-spacing: 15px;
+  text-align: center;
+  border-bottom: 3px solid #416371;
+  padding-top: 1px;
+  margin: auto /* <=> margin: 0px;  */
+  /* font-family: "Permanent Marker"; */
+}
+
+.article-content{
+  margin: 20px 0;
+}
+
+.article-content p:nth-of-type(1){
+  line-height: 20px;
+  padding-bottom: 5px;
+  color: #94c258;
+}
+
+p{
+  margin: 0;
+  width: 400px;
+}
+
+/* img */
+img{
+  height: 300px;
+  width: 500px;
+  border: none;
+}
+
+figure{
+  border: 3px solid #142830;
+  border-radius: 10px;
+  float: right;
+  margin: 0;
+  height: 300px;
+  width: 500px;
+} 
+
+footer{
+  border-top: 3px solid #142830;
+  padding-top: 15px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 960px;
+}
+
+
+
+/* thou------------------------------------------ */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Permanent+Marker&display=swap');
+  
+
+
+
+

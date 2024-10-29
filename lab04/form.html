@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="form.css">
+    <title>Form</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="header">CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</h1>
+        <h3 class="subheader">Độc lập - Tự do - Hạnh phúc</h3>
+        <hr class="custom-hr">
+        <h2 class="form-title">ĐƠN XIN CẤP PHÉP XUẤT BẢN <br> BẢN TIN</h2>
+        <p class="kinh-gui">Kính gửi: Sở Thông tin và Truyền thông Lâm Đồng</p>
+
+        <form id="form-1">
+            <ol>
+                <li>
+                    <h3>Tên cơ quan, tổ chức xin phép xuất bản:<span>(*)</span></h3>
+                    <label for="ten-co-quan"></label>
+                    <input class="large" type="text" id="ten-co-quan" name="ten-co-quan" placeholder="Doanh nghiệp Đức Long">
+                    <span class="form-message"></span>
+                    <br>
+                    <label for="dia-chi">Địa chỉ:<span>(*)</span></label>
+                    <input class="large" type="text" id="dia-chi" name="dia-chi" placeholder="12. Nguyễn Du - Đà Lạt">
+                    <span class="form-message"></span>
+                    <br>
+                    <label for="dien-thoai">Điện thoại:</label>
+                    <input type="text" id="dien-thoai" name="dien-thoai" placeholder="03312472947">
+                    <span class="form-message"></span>
+                    
+                    <label for="fax">Fax:</label>
+                    <input class="small" type="text" id="fax" name="fax" placeholder="42423">
+                    <br>
+                    <label class="lable-unique">Được thành lập (họăc cho phép thành lập theo): </label> <br>
+                    <label for="giay-phep-so">Giấy phép số:</label>
+                    <input type="text" id="giay-phep-so" name="giay-phep-so" placeholder="321">
+
+                    <label for="cap-ngay">Cấp ngày:</label>
+                    <input type="date" id="cap-ngay" name="cap-ngay">
+                    <br>
+                    <label class="lable-unique" for="co-quan-cap-phep">Cơ quan cấp phép:</label>
+                    <br>
+                    <input class="input-unique large" type="text" id="co-quan-cap-phep" name="co-quan-cap-phep" placeholder="Sở Thông tin và Truyền thông Lâm Đồng">
+                    <br>
+                    <label for="so-dkkd">Số ĐKKD:</label>
+                    <input class="large" type="text" id="so-dkkd" name="so-dkkd" placeholder="3413">
+                </li>
+
+                <li>
+                    <h3>Người chịu trách nhiệm xuất bản bản tin:<span>(*)</span></h3>
+                    <label for="ho-ten">Họ và tên:<span>(*)</span></label>
+                    <input class="large" type="text" id="ho-ten" name="ho-ten" placeholder="Nguyễn Văn Minh">
+                    <span class="form-message"></span>
+                    <br>
+                    <label for="ngay-sinh">Sinh ngày:<span>(*)</span></label>
+                    <input type="date" id="ngay-sinh" name="ngay-sinh">
+                    <span class="form-message"></span>
+
+                    <label for="quoc-tich">Quốc tịch:<span>(*)</span></label>
+                    <select id="quoc-tich" name="quoc-tich">
+                        <option value="viet-nam">Việt Nam</option>
+                    </select>
+                    <br>
+                    <label for="chuc-danh">Chức danh:<span>(*)</span></label>
+                    <input class="large" type="text" id="chuc-danh" name="chuc-danh" placeholder="Giám Đốc">
+                    <span class="form-message"></span>
+                    <br>
+                    <label for="so-cmt">Số chứng thực:<span>(*)</span></label>
+                    <input type="text" id="so-cmt" name="so-cmt" placeholder="123">
+                    <span class="form-message"></span>
+                    
+                    <label for="noi-cap">Nơi cấp:<span>(*)</span></label>
+                    <input class="small" type="text" id="noi-cap" name="noi-cap" placeholder="Pleiku">
+                    <span class="form-message"></span>
+                    <br>
+                    <label for="dia-chi-lien-lac">Địa chỉ liên lạc:<span>(*)</span></label>
+                    <input class="large" type="text" id="dia-chi-lien-lac" name="dia-chi-lien-lac" placeholder="12. Nguyễn Du - Đà Lạt">
+                    <span class="form-message"></span>
+                    <br>
+                    <label class="lable-unique" for="trinh-do">Trình độ chuyên môn, nghiệp vụ:</label>
+                    <br>
+                    <input class="input-unique large" type="text" id="trinh-do" name="trinh-do" placeholder="Đại Học">
+                </li>
+
+                <li>
+                    <h3>Tên cơ quan chủ quản (nếu có)</h3>
+                </li>
+
+            </ol> 
+
+            <button class="form-submit">Submit</button>
+        </form>
+
+       
+    </div>
+
+    <script src="form.js"></script>
+   
+</body>
+</html>

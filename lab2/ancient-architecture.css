@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    /* justify-content: center; */
+    width: 70%;
+    margin: 0 auto;
+    background-color: #e2d7aa;
+}
+
+/* bar------------ */
+nav{
+    margin: 30px;
+}
+
+ul{
+    text-align: center;
+    word-spacing: 20px;
+}
+
+li{
+    list-style-type: none;
+    display:inline;
+    font-size: 23px;
+}
+
+a{
+    color: #3a3434;
+    text-decoration: none;
+}
+
+li:first-child, li:last-child{
+    color: #072035;
+    font-weight: bold;
+}
+
+
+/* acient----- */
+h1{
+    margin-top: 50px;
+    font-size: 60px;
+    font-family: "Indie Flower", cursive;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    height: 660px;
+    margin: auto;
+}
+
+.img-container{
+    margin-top: 50px;
+}
+
+/* content */
+
+article{
+    float: left;
+    width: 33.33%;
+    padding: 30px;
+    box-sizing: border-box;
+    
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+}
+
+h3{
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+}
+
+h3 a{
+    font-size: 18px;
+    color: hsl(207, 85%, 24%);
+    font-weight: bold;
+}
+
+article img{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 5px;
+}
+
+p{
+    font-size: 18px;
+    margin-top: 1px;
+    text-align:justify;
+}
+
+p::first-letter{
+    font-family: EucrosiaUPC, sans-serif;
+    font-size: 40px;
+}
+
+/* comment--------- */
+span a{
+    background: url(/lab2/images/bg2.jpg);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-right: 20px;
+
+}
+
+span {
+
+}
+span a{
+    color: #ffffff;
+}
+
+article p:last-of-type span:first-of-type a::before{
+    content: url("images/comment.png");
+    position: relative;
+    right: 5px;
+    top: 7px;
+    padding: 10px;
+}
+
+footer{
+    margin: 0px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}

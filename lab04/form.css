@@ -1,0 +1,126 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+   
+   
+}
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.subheader {
+    text-align: center;
+    font-size: 1rem; 
+    margin-top: 7px;
+   
+}
+
+.custom-hr {
+    border: none;              
+    border-top: 1.3px dashed black;
+    width: 130px;               
+    margin: 20px auto;         
+    height: 0;           
+}
+
+.form-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+    font-size: 1.5rem;
+}
+
+.kinh-gui{
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+/* ---------------- */
+
+form{
+    font-size: 1rem;
+    width: 60%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+
+form{
+    
+}
+
+li{
+    font-weight: bold;
+}
+
+
+
+label {
+    display: inline-block;
+    width: 130px;
+    font-weight: normal;
+    margin: 5px 0;
+
+}
+
+span {
+    color: red;
+    font-weight: 100;
+}
+
+.lable-unique{
+    display: inline;
+}
+
+input{
+    border-top: none;
+    border-right: none;
+    border-left-color: rgb(240, 240, 240, 0.5);
+    border-bottom-color: rgb(192, 190, 188) ;
+}
+
+.large{
+    width: 490px;
+}
+
+.small{
+    width: 168px;
+}
+
+.input-unique{
+    margin-left: 134px;
+}
+
+
+#quoc-tich{
+    float:right;
+    margin-right: 20px;
+    width: 150px;
+}
+
+input[type="date"] {
+    width: 130px;
+    padding: 5px;
+    margin-right: 40px;
+}
+
+
+

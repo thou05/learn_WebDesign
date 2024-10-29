@@ -1,0 +1,22 @@
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table{
+    width: 500px;
+}
+th{
+    font-size: 30px;
+    font-style: italic;
+}
+td{
+    font-family: 'Courier New', Courier, monospace;
+}
+table,td, tr, th{
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+.hehe table,.hehe td, .hehe tr, .hehe th{
+    border: none;
+}

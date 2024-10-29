@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Phim 1",
+        "description": "Mô tả phim 1",
+        "image": "https://via.placeholder.com/300x400",
+        "showtimes": ["10:00", "14:00", "18:00"]
+    },
+    {
+        "id": 2,
+        "title": "Phim 2",
+        "description": "Mô tả phim 2",
+        "image": "https://via.placeholder.com/300x400",
+        "showtimes": ["12:00", "16:00", "20:00"]
+    },
+    {
+        "id": 3,
+        "title": "Phim 3",
+        "description": "Mô tả phim 3",
+        "image": "https://via.placeholder.com/300x400",
+        "showtimes": ["11:00", "15:00", "19:00"]
+    }
+]

@@ -1,0 +1,27 @@
+body{
+    background: url(images/plan-page.jpg);
+}
+
+.s-acticle{
+    background-color: #262626 ;
+    color: #fff;
+    border: #7a7777;
+    
+}
+
+.price{
+    color: #27dcc4;
+    font-size: 3em;
+}
+
+
+.s-button{
+    background-color: #27dcc4;
+    border: none;
+    padding: 10px 19px;
+}
+
+.s-button:hover{
+    background-color: #acacac;
+}
+
