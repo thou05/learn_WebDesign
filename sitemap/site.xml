@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemap>
+    <page name="Home">
+        <page name="Product">
+            <subpage name="Features"/>
+            <subpage name="Editor"/>
+            <subpage name="Hosting"/>
+        </page>
+        <page name="Resources">
+            <subpage name="Blog"/>
+            <subpage name="Webinars"/>
+        </page>
+        <page name="Company">
+            <subpage name="About Us"/>
+            <subpage name="Careers"/>
+            <subpage name="Contact Us"/>
+        </page>
+        <page name="Pricing"/>
+    </page>
+</sitemap>
