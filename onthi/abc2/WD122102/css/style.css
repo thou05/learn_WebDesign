@@ -1,0 +1,202 @@
+/*** reset all ***/
+*{margin: 0; padding: 0;}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0;padding:0;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+a{text-decoration: none;}
+/*** end reset all ***/
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: #FFF;
+}
+.wrap {
+	width:80%;
+	margin: 0 auto;
+}
+/* **Begin Header_top** */
+.header_top{
+    height: 75px;
+    line-height: 75px;
+}
+.header_top > div{
+    float: left;
+}
+.header_top .logo{
+    width: 40%;
+}
+.header_top .cart{
+    width: 60%;
+    text-align: right;
+}
+.header_top .cart > *{
+   display: inline-block;
+}
+.header_top .cart span{
+    color: red;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.header_top .dropdown{
+    display: none;
+}
+/* **End Header_top** */
+/* **Begin Header_bottom** */
+.header_bottom{
+    clear: both;
+    height: 50px;
+    background-color: #4b4b4b;
+    line-height: 50px;
+    border-radius: 5px;
+}
+.header_bottom > div{
+    float: left;
+}
+.header_bottom .menu{
+    width: 60%;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li:first-of-type{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.menu ul li a:link{
+    padding: 0 15px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    display: inline-block;
+}
+.menu ul li a:visited{
+    color: white;
+}
+.menu ul li:hover{
+    background-color:red;
+}
+.header_bottom .search_box{
+    width: 40%;
+}
+.search_box{
+    position: relative;
+}
+.search_box input[type="text"]{
+    width: 90%;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.search_box input[type="button"]{
+    width: 20px;
+    background-image: url('../images/search.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 17px;
+    right: 20px;
+    border: none;
+}
+/* **End Header_bottom** */
+.main{
+    clear: both;
+}
+/* **Begin Content_top** */
+.content_top .heading, .see{
+    width: 50%;    
+    float: left;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+.heading{
+    text-transform: uppercase;
+}
+.heading h3{
+    font-weight: normal;
+    font-size: 1.4em;
+}
+.see{
+    text-align: right;
+}
+/* **End Content_top** */
+/* **Begin Content_product** */
+/* **Student insert code here** */
+
+
+/* **End Content_product** */
+
+/*** Begin Footer ***/
+.footer {
+    clear: both;
+	position: relative;
+	background: #FCFCFC;
+    border-top: 1px solid #CECECE;
+    margin:40px auto;
+}
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+.group:before, .group:after {
+	content: "";
+	display: table;
+}
+.group:after {
+	clear: both;
+}
+.group {
+	zoom: 1;
+}
+.col_1_of_4 {
+	display: block;
+	float: left;
+	margin:0% 0 1% 3.6%;
+}
+.col_1_of_4:first-child {
+	margin-left: 0;
+}
+.span_1_of_4 {
+	width: 20.5%;
+	padding:1.5% 1.5% 0 0;
+	border-left:1px solid #CECECE;
+}
+.span_1_of_4  h4 {
+	color:#4F4F4F;
+	margin-bottom: .5em;
+	font-size: 1.2em;
+	line-height: 1.2;
+	font-family: 'ambleregular';
+	font-weight: normal;
+	margin-top: 0px;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #CECECE;
+	padding-bottom: 0.5em;
+	padding-left:20px;
+}
+.span_1_of_4 ul{
+	padding-left:20px;
+}
+.span_1_of_4  li a {
+	font-size: 0.8125em;
+	padding: 0.4em 0;
+	color:#2A5C86;
+	font-family: 'ambleregular';
+	display: block;
+}
+.span_1_of_4  li span{
+	font-size:1em;
+	font-family: 'ambleregular';
+	color:#2A5C86;
+	cursor:pointer;
+	margin:10px 0;
+	display:block;
+}
+.span_1_of_4  li a:hover, .span_1_of_4  li span:hover {
+	color:#DD0F0E;
+}
+/*** End Footer ***/

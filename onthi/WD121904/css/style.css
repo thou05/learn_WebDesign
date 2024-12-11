@@ -17,6 +17,33 @@ body{
 	float: left;
 }
 /*end left grid items*/
+.list-item{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	box-sizing: border-box;
+	margin:0px;
+}
+
+.item{
+	width: 95%;
+	
+}
+
+.item img{
+	margin-top: 10px;
+	width: 100%;
+	background-color:white ;
+	margin-bottom: 0px;
+}
+
+.item p{
+	margin:0 auto;
+	padding: 0px;
+	background-color:white ;
+	text-align: center;
+	font-weight: 400;
+	font-size: 20px;
+}
 
 /*begin list item*/
 
