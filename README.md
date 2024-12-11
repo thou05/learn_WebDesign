@@ -1,5 +1,13 @@
 ## Cheatsheet
 
+## Extentions
+- `auto rename tag`
+- `html css support`
+- `html tag wrapper`
+- `html to css autocompletion
+- `live server`
+
+
 ## HTML
 - HEADING `h123456`
 - paragraphs `p`
@@ -167,5 +175,78 @@ document.getElementsByName('submit')[0].addEventListener('click', function(event
         form.reset();
     }
 });
+```
+
+```js
+<script type="text/javascript">
+  // Search form validation
+  function validateSearch() {
+    var searchInput = document.querySelector('input[type="text"]').value;
+    if (searchInput.trim() == "" || searchInput == "Search for Products") {
+      alert("Please enter a product to search.");
+      return false;
+    }
+    return true;
+  }
+
+  // Contact form validation
+  function validateContactForm() {
+    var fullname = document.getElementsByName("Fullname")[0].value;
+    var image = document.getElementsByName("Image")[0].value;
+
+    if (fullname.trim() == "" || image.trim() == "") {
+      alert("Please fill in all fields.");
+      return false;
+    }
+    return true;
+  }
+</script>
+```
+```js
+document.getElementById('submit').addEventListener('click', function(event){
+    const key = document.getElementById('key').value;
+    const cat = document.getElementById('cat').value;
+    const from = document.getElementById('from').value;
+    const to = document.getElementById('to').value;
+
+    let isValid = true;
+    if(!key || !cat || !from || !to){
+        alert("dien du thong tin");
+        isValid = false;
+    }
+    if(from && isNaN(from) || to && isNaN(to)){
+        alert("dien so");
+        isValid = false;
+    }
+    //parseFloat: chuyen tu chuoi string ve so thuc
+    if(from && to && parseFloat(from) > parseFloat(to)){
+        alert("gia to phai cao hon from");
+        isValid = false;
+    }
+    if(!isValid){
+        event.preventDefault();
+    }else{
+        from.reset();
+    }
+
+
+})
+```
+```js
+document.querySelector('input[type="submit"]').addEventListener('click', function(event){
+	const form = document.querySelector('form'); 
+	const search = document.querySelector('input[type="text"]').value.trim();
+	let isValid = true;
+	if(!search || search === "Search for Products"){
+		alert("vui long nhap ten can tim");
+		isValid = false;
+	}  
+	if(!isValid){
+		event.preventDefault();
+	}else{
+		form.reset(); 
+	}
+});
+
 ```
 
